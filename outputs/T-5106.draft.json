@@ -1,0 +1,27 @@
+{
+  "ticket_id": "T-5106",
+  "customer_text": "Hi Hannah,\n\nThank you for flagging this, and I'm sorry a round froze on you - I can see why a lost $250 bet would be frustrating.\n\nI can't confirm what happened in that round from here, and I'm not able to issue the refund myself. A refund of this size needs approval from a team lead before anything can be paid, and the decision has to be based on a check of the game round itself. Being a Gold member doesn't change that.\n\nThe round needs to be looked at properly before any decision is made. If you can send the game name and the approximate time of the round, that will help.\n\nI can't promise an outcome or a date today, and I'd rather be straight with you than give you an answer I can't stand behind.",
+  "internal_notes": "Route Team Lead (correct), P2, escalation saved for the approval decision. Requested refund 250.00 USD > USD 100 agent limit → recorded prior team-lead approval is mandatory; Gold/VIP tier does not waive it. A refund request does not establish eligibility: no game/round reference, no game-log evidence and no approval exist in the export. Support cannot credit manually and this plugin moves no money. Draft acknowledges the report, asks for the game name and approximate round time, states the approval requirement plainly, and promises neither a refund nor \"today\". It does not admit a platform fault that cannot be verified and does not claim any money has been moved. No refund was drafted. Human action: team lead to obtain round/game evidence and decide on approval; if granted, it must be recorded against this ticket ID with a reason. Sources: support-handbook-v2.md#refunds, support-handbook-v2.md#escalation, support-handbook-v2.md#response-times.",
+  "sources": [
+    "support-handbook-v2.md#refunds",
+    "support-handbook-v2.md#escalation",
+    "support-handbook-v2.md#response-times",
+    "tickets.json#T-5106"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "8635b38e3eb2e934f2d349a60486bac266cadf96676ad4604176690633487c33",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:22.366Z",
+      "content_sha256": "8635b38e3eb2e934f2d349a60486bac266cadf96676ad4604176690633487c33",
+      "previous_sha256": null
+    }
+  ]
+}

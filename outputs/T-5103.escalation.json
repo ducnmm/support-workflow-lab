@@ -1,0 +1,41 @@
+{
+  "ticket_id": "T-5103",
+  "target": "Team Lead",
+  "priority": "P1",
+  "reasons": [
+    "Verification status is under_review; do not disclose review reasons or promise completion.",
+    "Verification timing is unknown and needs confirmation from the responsible team.",
+    "Legal or chargeback threat requires team lead handling; do not resolve automatically.",
+    "Only communicate that review is in progress. Never disclose findings."
+  ],
+  "sources": [
+    "tickets.json#T-5103",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#verification-kyc",
+    "customers.csv#C-1011",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "Target: Team Lead. Reason: KYC review plus a chargeback and legal threat. Required human action: the Team Lead must review the legal/chargeback threat and coordinate with the verification team to confirm the current review status and any timing. Do not disclose the review reason, findings, or checks; do not promise a completion SLA. Related prior ticket T-5004 is closed with a restricted/omitted reply. First reply is overdue (28.25h against the 1h target). This saved brief has not been delivered; a human must route it. Sources: tickets.json#T-5103, support-handbook-v2.md#verification-kyc, support-handbook-v2.md#escalation, support-handbook-v2.md#response-times.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "336d50cb3e41c655745956ec6834189453870b5da3a0d1963668511ed186f8e4",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:49.781Z",
+      "content_sha256": "b9245387700d966d8e17ddb4cbe6e995a129676b83f938b506765ee24de18954",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:46.435Z",
+      "content_sha256": "336d50cb3e41c655745956ec6834189453870b5da3a0d1963668511ed186f8e4",
+      "previous_sha256": "b9245387700d966d8e17ddb4cbe6e995a129676b83f938b506765ee24de18954"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ticket_id": "T-5110",
+  "customer_text": "Hi Somchai,\n\nThanks for the follow-up, and I'm sorry - you're right to be frustrated, and you shouldn't have had to chase this.\n\nThis is the same $400 withdrawal from 21 September that you emailed us about, and it's still pending: it hasn't been processed or sent to the provider. I've noted that this message and your earlier email are the same case, so it's handled once rather than twice.\n\nI can't confirm a payment date for it from here. A withdrawal pending this long has to be reviewed by our Payments team.\n\nI'm sorry for the runaround.",
+  "internal_notes": "Route Payments (baseline accepted), P2, escalation saved. DUPLICATE of T-5102 — same customer C-1007, same transaction TX-86702 (400.00 USD, pending, QuickPay, created 2026-09-21T13:40Z). Keep both tickets open and cross-linked; do not create a third thread; a single Payments follow-up must cover TX-86702. The draft acknowledges the earlier email without inventing a reason it went unanswered, states pending = not processed or sent, and promises no date. It says the two messages are noted as one case — that is a note, not a claim that anything has been paid or escalated to a provider. The internal 2 Oct expectation is absent and must stay internal. Separate internal issue for a lead: this customer's name and contact details were posted in the support Slack channel on 2026-09-22T06:45Z, contrary to the privacy rule — do not repeat them and raise the channel hygiene separately. Sources: support-handbook-v2.md#withdrawals, finance-month-end-sept.md#payment-providers, transactions.csv#TX-86702.",
+  "sources": [
+    "support-handbook-v2.md#withdrawals",
+    "finance-month-end-sept.md#payment-providers",
+    "transactions.csv#TX-86702",
+    "tickets.json#T-5110",
+    "tickets.json#T-5102"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "7d39cf3520d8f4833bbea1b1c5c4ae404b57eec967b6803203c7f829f835e509",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:31.716Z",
+      "content_sha256": "7d39cf3520d8f4833bbea1b1c5c4ae404b57eec967b6803203c7f829f835e509",
+      "previous_sha256": null
+    }
+  ]
+}

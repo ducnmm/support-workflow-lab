@@ -1,0 +1,49 @@
+{
+  "ticket_id": "T-5115",
+  "category": "bonus",
+  "priority": "P4",
+  "route": "Team Lead",
+  "reasons": [
+    "Reload offer is an unpublished marketing draft, with final terms still pending Legal.",
+    "This question is about an upcoming reload offer, not the welcome bonus. Do not apply welcome-bonus wagering or expiry rules to it."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "unpublished_terms"
+  ],
+  "missing_information": [
+    "Final approved and published reload terms and permitted customer-facing wording."
+  ],
+  "sources": [
+    "tickets.json#T-5115",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#bonuses",
+    "marketing-q4-campaigns.md#october",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 8,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Reproducible deterministic MCP run. No LLM was used for this output.",
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "61a653e835f7d329c6cf7d6d71f38d99596561744126a863fb28921d36f21349",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.030Z",
+      "content_sha256": "8a0db8ad774e61f58a005b1f6724831ca75c640bee6ba8e50894cbd5e06a26d8",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:20:20.389Z",
+      "content_sha256": "61a653e835f7d329c6cf7d6d71f38d99596561744126a863fb28921d36f21349",
+      "previous_sha256": "8a0db8ad774e61f58a005b1f6724831ca75c640bee6ba8e50894cbd5e06a26d8"
+    }
+  ]
+}

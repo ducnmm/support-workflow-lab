@@ -1,0 +1,30 @@
+{
+  "ticket_id": "T-5112",
+  "target": "Team Lead",
+  "priority": "P2",
+  "reasons": [
+    "No approved 2FA recovery procedure is provided. Do not invent recovery steps or bypass identity checks."
+  ],
+  "sources": [
+    "tickets.json#T-5112",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "TARGET: Team Lead (or the team that owns account security). REQUIRED ACTION: run a verified account-recovery process for customer C-1021, who has lost her phone and cannot receive 2FA codes. There is NO approved 2FA recovery or identity-verification procedure in any source, so one must not be improvised in the reply: no disabling of 2FA, no moving the second factor to a new number, no \"check your backup codes in settings\", no bypass of identity checks. The lead must apply the real process, tell the customer through the proper channel what evidence is required, and confirm when access is restored. Treat as sensitive: a lost device plus account access is takeover-adjacent; note that a prior ticket (T-5014) walked this customer through an email change, so any contact-detail state should be checked as part of recovery. No balance or transaction detail to be discussed. Also flag the missing documented recovery procedure as an operational gap — this will recur. DRAFT: reply drafted and pending human review; it states only that recovery needs a verified human-run process and asks her not to send codes or documents in chat. STATUS: local brief only, NOT delivered to the Team Lead.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "ef816c383eb0ca41fed88338fe017424de30614e4170fbb1579255e1753bbe30",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:18:01.075Z",
+      "content_sha256": "ef816c383eb0ca41fed88338fe017424de30614e4170fbb1579255e1753bbe30",
+      "previous_sha256": null
+    }
+  ]
+}

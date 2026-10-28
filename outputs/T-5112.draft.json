@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-5112",
+  "customer_text": "Hi Sofia,\n\nThanks for getting in touch - losing your phone is stressful enough without being locked out on top of it.\n\nI can't restore access from here, and I don't want to give you steps that could put your account at risk. Recovering an account protected by two-factor authentication has to go through a verified process handled by a person, and that's what needs to happen next.\n\nI'm sorry I can't give you a timeframe for it. Please don't send any codes or personal documents in this chat - the team will tell you what's needed through the proper channel.\n\nIf you have another way to reach us that you've used before, mention this ticket number so it's linked to your case.",
+  "internal_notes": "Route Team Lead (correct), P2, escalation saved. Customer lost her phone and cannot receive 2FA codes. GAP: no approved 2FA recovery or identity-verification procedure exists in any current source. The draft therefore: does not give any recovery steps, does not suggest disabling or moving 2FA, does not mention backup codes or settings, and does not bypass or shortcut identity checks; it only says recovery needs a verified process handled by a person. It asks her not to send codes or documents in chat. No balance, transaction or KYC detail is disclosed. Human action: a team lead must run the verified account-recovery/identity process and tell the customer what evidence is required through the proper channel — that procedure must not be improvised from this ticket. Note closed ticket T-5014 (email change how-to) is not a recovery precedent and, in a lost-device context, a contact-detail change is itself worth a second look. Sources: support-handbook-v2.md#escalation, support-handbook-v2.md#response-times.",
+  "sources": [
+    "support-handbook-v2.md#escalation",
+    "support-handbook-v2.md#response-times",
+    "tickets.json#T-5112"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "2e645f3825d3ea330f22a21e9a86f57c289485c8cf76bfac6efd67714896226d",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:38.074Z",
+      "content_sha256": "2e645f3825d3ea330f22a21e9a86f57c289485c8cf76bfac6efd67714896226d",
+      "previous_sha256": null
+    }
+  ]
+}

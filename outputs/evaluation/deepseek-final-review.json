@@ -1,0 +1,89 @@
+{
+  "model": "deepseek-flash[1m]",
+  "client": "Claude Code 2.1.312",
+  "provider": "DeepSeek",
+  "authoring_mode": "live-model-client-test",
+  "final": {
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 15,
+    "duration_ms": 80047
+  },
+  "events": [
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5105",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5107",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5105",
+      "status": "ok",
+      "saved_record": "T-5105.draft.json",
+      "revision": 3,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5107",
+      "status": "ok",
+      "saved_record": "T-5107.draft.json",
+      "revision": 2,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5105",
+      "status": "ok",
+      "saved_record": "T-5105.escalation.json",
+      "revision": 3,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "error",
+      "error": "KB drafts must cite current policy sources. Historical tickets alone do not establish correct policy."
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "ok",
+      "saved_record": "05f5948abaaaf360.kb.json",
+      "revision": 3,
+      "changed": true
+    }
+  ],
+  "unanswered_tool_calls": []
+}

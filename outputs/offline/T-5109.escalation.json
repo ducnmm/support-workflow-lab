@@ -1,0 +1,35 @@
+{
+  "ticket_id": "T-5109",
+  "target": "Payments",
+  "priority": "P2",
+  "reasons": [
+    "Recorded transaction TX-86735: 120.00 USD, completed, QuickPay.",
+    "Provider confirmation and the customer’s report disagree. Verify receipt; do not promise or reissue payment.",
+    "Finance reports a QuickPay incident on 20–24 September. This is context, not proof of a particular settlement date.",
+    "Related same-customer tickets exist; review before duplicating work."
+  ],
+  "sources": [
+    "tickets.json#T-5109",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#withdrawals",
+    "transactions.csv#TX-86735",
+    "finance-month-end-sept.md#payment-providers"
+  ],
+  "requested_action": "Human action needed: Recorded transaction TX-86735: 120.00 USD, completed, QuickPay. Provider confirmation and the customer’s report disagree. Verify receipt; do not promise or reissue payment. Finance reports a QuickPay incident on 20–24 September. This is context, not proof of a particular settlement date. Related same-customer tickets exist; review before duplicating work.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "03f61b922dbf93eef3af325360ef8ec8cdfe70c92258dd473ba06713b27a3178",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.026Z",
+      "content_sha256": "03f61b922dbf93eef3af325360ef8ec8cdfe70c92258dd473ba06713b27a3178",
+      "previous_sha256": null
+    }
+  ]
+}

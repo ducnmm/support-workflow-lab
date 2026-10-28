@@ -1,0 +1,52 @@
+{
+  "ticket_id": "T-5103",
+  "category": "kyc",
+  "priority": "P1",
+  "route": "Team Lead",
+  "reasons": [
+    "Verification status is under_review; do not disclose review reasons or promise completion.",
+    "Verification timing is unknown and needs confirmation from the responsible team.",
+    "Legal or chargeback threat requires team lead handling; do not resolve automatically.",
+    "Only communicate that review is in progress. Never disclose findings."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "legal_or_chargeback_threat",
+    "kyc_under_review"
+  ],
+  "missing_information": [
+    "No verification turnaround time or detailed process is provided."
+  ],
+  "sources": [
+    "tickets.json#T-5103",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#verification-kyc",
+    "customers.csv#C-1011",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 28.25,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Current rules classify this as KYC (P1, Team Lead). KYC status is under_review; withdrawals are unavailable until the review completes. Do not disclose review reasons or findings and do not promise a completion time. The legal/chargeback threat requires Team Lead handling; do not resolve automatically. Related prior ticket T-5004 is closed and its reply is restricted/omitted. Human action: Team Lead reviews the legal/chargeback threat and coordinates with the verification team; confirm current review status and approved customer-facing wording. Sources: support-handbook-v2.md#verification-kyc, support-handbook-v2.md#escalation, support-handbook-v2.md#response-times, customers.csv#C-1011, tickets.json#T-5103.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "2d000e488b8d0dc5496ff416dd3a7a9fa122563c5728809cc2ff9af3a1c54392",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:17.580Z",
+      "content_sha256": "b3e8bfe1c009156988f50556cdb4f9aca8b0805214f91c4790b3fafd677d77a8",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:12.589Z",
+      "content_sha256": "2d000e488b8d0dc5496ff416dd3a7a9fa122563c5728809cc2ff9af3a1c54392",
+      "previous_sha256": "b3e8bfe1c009156988f50556cdb4f9aca8b0805214f91c4790b3fafd677d77a8"
+    }
+  ]
+}

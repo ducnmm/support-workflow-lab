@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-5111",
+  "target": "Team Lead",
+  "priority": "P2",
+  "reasons": [
+    "Welcome bonus: 30× bonus amount within 14 days; table games count 10%, live casino 0%. No manual exceptions.",
+    "Recorded bonus 100.00 USD; 14-day deadline 2026-09-19T19:44:30.000Z.",
+    "Previous support advice conflicts with Bonus Terms; a human should handle the complaint without inventing a policy exception.",
+    "Related same-customer tickets exist; review before duplicating work."
+  ],
+  "sources": [
+    "tickets.json#T-5111",
+    "support-handbook-v2.md#response-times",
+    "bonus-terms.md#welcome-bonus",
+    "bonus-terms.md#withdrawing-with-an-active-bonus",
+    "bonus-terms.md#exceptions",
+    "transactions.csv#TX-86189",
+    "support-handbook-v2.md#escalation",
+    "tickets.json#T-5011"
+  ],
+  "requested_action": "TARGET: Team Lead. REQUIRED ACTION: decide how to handle a complaint caused by incorrect support advice. Closed ticket T-5011 told this customer \"yes, you can use your bonus on any game\", which contradicts the Bonus Terms — only slots count in full, table games 10%, live casino 0%. He then wagered \"over $2,000, mostly blackjack\" and believes he met the requirement; on the terms that play would count at roughly a tenth. His 100.00 USD bonus (TX-86189, credited 2026-09-05T19:44:30Z) also passed its 14-day deadline on 2026-09-19T19:44:30Z. The lead must decide whether any goodwill is appropriate given the bad advice, and must record the reasoning and approval. Hard constraints: this cannot be granted as an exception to the Bonus Terms (no exceptions exist and Support cannot credit bonuses manually); no wagering ledger exists, so nobody can assert what he actually wagered, how it was classified, or that the bonus \"was removed\"; no outcome may be promised to the customer before the decision. WHO: team lead; if money is involved, approval must be recorded against this ticket. Customer C-1018, verified, balance 180.00. DRAFT: reply drafted and pending human review; it apologises for the wrong advice and promises no outcome. STATUS: local brief only, NOT delivered to the Team Lead.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "d0574feeb6495fe5b4f240d915c4de40378880141a0e11d98f937f7cb4ad45b7",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:59.342Z",
+      "content_sha256": "d0574feeb6495fe5b4f240d915c4de40378880141a0e11d98f937f7cb4ad45b7",
+      "previous_sha256": null
+    }
+  ]
+}

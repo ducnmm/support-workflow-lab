@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-5108",
+  "category": "privacy",
+  "priority": "P3",
+  "route": "Support",
+  "reasons": [
+    "Do not look up or disclose the other person’s account. A claimed family relationship is not authorization."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "third_party_account_request"
+  ],
+  "missing_information": [],
+  "sources": [
+    "tickets.json#T-5108",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#privacy"
+  ],
+  "related_tickets": [],
+  "age_hours": 18,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Reproducible deterministic MCP run. No LLM was used for this output.",
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "d3ffb3e463ca7b2c378835deb4bfd599bf39b8d3728ef89e2e147ac531b93428",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.025Z",
+      "content_sha256": "d3ffb3e463ca7b2c378835deb4bfd599bf39b8d3728ef89e2e147ac531b93428",
+      "previous_sha256": null
+    }
+  ]
+}

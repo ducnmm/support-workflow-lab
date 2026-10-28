@@ -1,0 +1,30 @@
+{
+  "title": "Failed deposit: charged but balance still zero",
+  "body": "# Failed deposit: charged but balance still zero\n\nIf your deposit failed but your card or bank account was charged and your balance still shows zero, this article explains what happened and what to expect.\n\n## What happened\n\nA failed deposit is never credited to your account. That means the failed deposit itself will not appear as balance, even if your payment method shows a charge.\n\n## Why your balance still shows zero\n\nThe failed deposit did not add funds to your balance. It is not, on its own, an explanation for a zero balance across the whole account. Your balance can reflect other deposits, withdrawals, bonuses, or adjustments, so the full account history has to be checked before anyone confirms that the overall balance is correct.\n\n## When the charge is reversed\n\nIf you were charged for a failed deposit, the payment provider reverses it to the original payment method. This usually takes 3–5 business days. The exact date depends on the provider and your bank, so we cannot promise a specific date or confirm that the reversal has completed until the provider reports it.\n\n## What to do\n\n- Keep the date, amount, payment method, and transaction reference for the failed deposit.\n- Contact Support with those details so the transaction can be checked.\n- Do not expect the failed deposit to be added to your balance; failed deposits are never credited.\n\n## Important\n\n- We cannot confirm the charge has been reversed until the provider reports it.\n- We cannot promise an exact reversal date.\n- One failed deposit does not establish that the overall account balance is correct.\n\n## Reviewer note (internal — remove before publishing)\n\n- This export does not include provider reversal tracking, so the status of an individual reversal cannot be verified here. That is a gap in THIS EXPORT, not proof that Support lacks provider reversal tracking in real systems.\n- The approved deposit-method list is also missing from THIS EXPORT. That is a gap in THIS EXPORT, not proof that Support lacks such a list in real systems.\n- Before publishing, a person with access to the payment provider's reversal records should confirm the wording and any available status-check process. Do not credit a failed deposit or issue a duplicate payment.\n\n## Sources\n\n- support-handbook-v2.md#deposits\n\nDraft pending human review. Not published.",
+  "sources": [
+    "support-handbook-v2.md#deposits"
+  ],
+  "owner": "Support Team Lead",
+  "suggested_review_date": "2026-10-29",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "8d86d491a4a1d2f7698ea89e2642172ac5fa2781013d0614399ff0eabc29f502",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:18:27.346Z",
+      "content_sha256": "c20ceca2fba98362cf132323b223e1a19fae405f88d7731b030846ae83c11129",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:22:12.431Z",
+      "content_sha256": "8d86d491a4a1d2f7698ea89e2642172ac5fa2781013d0614399ff0eabc29f502",
+      "previous_sha256": "c20ceca2fba98362cf132323b223e1a19fae405f88d7731b030846ae83c11129"
+    }
+  ]
+}

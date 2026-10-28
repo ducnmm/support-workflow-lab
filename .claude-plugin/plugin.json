@@ -1,0 +1,7 @@
+{
+  "name": "support-99tech",
+  "version": "0.1.0",
+  "description": "Triage, research, draft, escalate, and document support cases using the 99Tech local export. All communications remain drafts for human review.",
+  "author": { "name": "Nguyen Mau Minh Duc" },
+  "license": "Apache-2.0"
+}

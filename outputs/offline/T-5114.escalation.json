@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-5114",
+  "target": "Team Lead",
+  "priority": "P4",
+  "reasons": [
+    "Available sources do not confirm the requested deposit methods."
+  ],
+  "sources": [
+    "tickets.json#T-5114",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#deposits",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "Human action needed: Available sources do not confirm the requested deposit methods.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "28cd3106112ba56087b645901fefff24093a2b7f38ccd1549661d5ee390e77dc",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.029Z",
+      "content_sha256": "bb85f5238df7cf8774df656aa201272660be523b64e71e4410edd0b57bb997ae",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:20:20.389Z",
+      "content_sha256": "21646466302faf6824037be0d142a3842751d23ba8ece8ae72d2f73a70f4f2a7",
+      "previous_sha256": "bb85f5238df7cf8774df656aa201272660be523b64e71e4410edd0b57bb997ae"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T15:14:46.261Z",
+      "content_sha256": "28cd3106112ba56087b645901fefff24093a2b7f38ccd1549661d5ee390e77dc",
+      "previous_sha256": "21646466302faf6824037be0d142a3842751d23ba8ece8ae72d2f73a70f4f2a7"
+    }
+  ]
+}

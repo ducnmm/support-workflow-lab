@@ -1,0 +1,42 @@
+{
+  "ticket_id": "T-5113",
+  "category": "kyc",
+  "priority": "P2",
+  "route": "Team Lead",
+  "reasons": [
+    "Verification status is pending; do not disclose review reasons or promise completion.",
+    "Verification timing is unknown and needs confirmation from the responsible team."
+  ],
+  "flags": [
+    "first_reply_overdue"
+  ],
+  "missing_information": [
+    "No verification turnaround time or detailed process is provided."
+  ],
+  "sources": [
+    "tickets.json#T-5113",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#verification-kyc",
+    "customers.csv#C-1013",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 13.83,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Baseline accepted: kyc / P2 / Team Lead, principally because no verification turnaround exists in any current source and the baseline flags Team Lead for missing authoritative guidance. Facts: customer records kyc_status pending (not under_review), passport uploaded ~4 days before the 2026-09-28T19:10Z ticket; single deposit TX-86822 of 20.00 USD on 2026-09-24; balance 20.00. Allowed in the reply: the review is in progress, withdrawals are unavailable until it completes, and the team will contact them if anything else is needed. NOT allowed: any review reason or finding, any statement about what the document shows, any completion time or SLA (none exists in the export — acknowledge the gap rather than invent \"24-48 hours\"), and any promise to expedite. Do not imply the customer did something wrong. If a human wants to set an expectation, they must first obtain a real turnaround from the KYC owner; that is the outstanding action. Sources: tickets.json#T-5113, customers.csv#C-1013, support-handbook-v2.md#verification-kyc, support-handbook-v2.md#escalation.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "20afd20a271e3b0cb8d308522cf51e7e1ee87a1f3c8d56f29132dbd95c0b0681",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:39.545Z",
+      "content_sha256": "20afd20a271e3b0cb8d308522cf51e7e1ee87a1f3c8d56f29132dbd95c0b0681",
+      "previous_sha256": null
+    }
+  ]
+}

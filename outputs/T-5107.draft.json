@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-5107",
+  "customer_text": "Chào bạn,\n\nCảm ơn bạn đã liên hệ. Giao dịch nạp 500.000 đồng qua VietPay ngày 27/09/2026 đang ở trạng thái thất bại, nên khoản nạp này chưa được cộng vào số dư.\n\nNếu ngân hàng đã trừ tiền, nhà cung cấp thường hoàn lại về tài khoản nguồn trong 3–5 ngày làm việc. Hiện chưa có xác nhận khoản hoàn đã hoàn tất và tôi không thể cam kết ngày tiền về cụ thể.\n\nNếu quá khoảng thời gian này mà bạn vẫn chưa nhận được tiền, vui lòng phản hồi để được kiểm tra tiếp. Xin lỗi bạn vì sự bất tiện này.",
+  "internal_notes": "TX-86933 (VietPay, VND 500,000, 2026-09-27) is failed and must not be credited. Provider reversal usually takes 3–5 business days; no confirmed completion or date. Correction: this single failed deposit does not establish that the customer's overall zero balance is correct — the balance was not independently verified, and this export has no ledger to reconcile it. Finance reports VietPay's failed deposits were auto-reversed by the provider, but that does not confirm this customer's specific reversal. Reply drafted in Vietnamese. First reply overdue (~30.3h at export time). Sources: support-handbook-v2.md#deposits; transactions.csv#TX-86933; tickets.json#T-5107; finance-month-end-sept.md#payment-providers.",
+  "sources": [
+    "support-handbook-v2.md#deposits",
+    "transactions.csv#TX-86933",
+    "tickets.json#T-5107",
+    "finance-month-end-sept.md#payment-providers"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "codex-review",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "98ccb20d67635f5473060f9fe90c50921cbd46221dcc74450d7d679fdc2ea48a",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:25.272Z",
+      "content_sha256": "66175a0a9238e9538111e3b2d686351a8e224273319f94c9e0a441e51028e6d9",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:25:15.808Z",
+      "content_sha256": "2ab00108a9c891e8bb99c044e96a6d48eca6e41bc30023456894a4754e228b28",
+      "previous_sha256": "66175a0a9238e9538111e3b2d686351a8e224273319f94c9e0a441e51028e6d9"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T14:27:09.903Z",
+      "content_sha256": "98ccb20d67635f5473060f9fe90c50921cbd46221dcc74450d7d679fdc2ea48a",
+      "previous_sha256": "2ab00108a9c891e8bb99c044e96a6d48eca6e41bc30023456894a4754e228b28"
+    }
+  ]
+}

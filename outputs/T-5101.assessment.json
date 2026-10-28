@@ -1,0 +1,41 @@
+{
+  "ticket_id": "T-5101",
+  "category": "withdrawal",
+  "priority": "P3",
+  "route": "Support",
+  "reasons": [
+    "Recorded transaction TX-86901: 250.00 USD, processing, PayNova.",
+    "Processing-start time is not provided. Using updated_at gives a conservative lower bound of 2 whole weekdays; provider holidays are unknown."
+  ],
+  "flags": [
+    "first_reply_overdue"
+  ],
+  "missing_information": [
+    "Actual processing-start timestamp and provider calendar are needed for an exact deadline."
+  ],
+  "sources": [
+    "tickets.json#T-5101",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#withdrawals",
+    "transactions.csv#TX-86901"
+  ],
+  "related_tickets": [],
+  "age_hours": 23.67,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Baseline accepted: withdrawal / P3 / Support. Customer says $250 \"two days ago\"; record TX-86901 is 250.00 USD, status processing, PayNova, created 2026-09-26T08:14Z, updated 2026-09-27T06:02Z. Reconciliation: 2026-09-26 was a Saturday, so the 24h processing rule and the \"processing >3 business days\" Payments trigger both run on business days. Actual processing-start timestamp and provider holiday calendar are NOT in the export; using updated_at as a conservative lower bound gives 2026-09-27T06:02Z start, i.e. 2 whole weekdays (Mon 28, Tue 29 Sep) elapsed at 2026-09-29T09:00Z. That is under 3 business days, so Payments referral is not yet triggered — but the customer is told 1-3 business days for arrival, and this is inside that window only if processing began on 27th. Flag for a human to pull the real processing-start time; if it is earlier than 27th, this becomes a Payments case. Do not state a settlement date. first_reply_overdue: no first response; 23.67h old vs 1-hour target. Sources: tickets.json#T-5101, transactions.csv#TX-86901, support-handbook-v2.md#withdrawals, support-handbook-v2.md#response-times.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "448918178b53b7a87d64cc52549b0e2df026090d2a3a2f57194726a2e36d4c65",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:13.862Z",
+      "content_sha256": "448918178b53b7a87d64cc52549b0e2df026090d2a3a2f57194726a2e36d4c65",
+      "previous_sha256": null
+    }
+  ]
+}

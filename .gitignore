@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env*
+*.key
+.claude/
+.DS_Store
+outputs/.lock
+outputs/.tmp-*

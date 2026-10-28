@@ -1,0 +1,27 @@
+{
+  "ticket_id": "T-5113",
+  "customer_text": "Hi Vikram,\n\nThanks for your message.\n\nYour verification is still in progress, and withdrawals can't be processed until the review is complete. I'm not able to share what the review involves or what has been checked - that applies to every review, not just yours.\n\nI also don't have a confirmed timeframe for how long it will take, and I'd rather tell you that than give you a number I can't stand behind. If anything more is needed from you, we'll contact you.\n\nThanks for your patience.",
+  "internal_notes": "Route Team Lead (correct, because no turnaround exists), P2, escalation saved. Records: C-1013 kyc_status pending; passport uploaded around 2026-09-24; single deposit TX-86822 of 20.00 USD; balance 20.00. The draft reports status only: review in progress, withdrawals blocked until complete. It does NOT give a review reason, does NOT describe what the document shows or what checks found, and does NOT invent a completion SLA (\"24-48 hours\" etc.) — it explicitly says no timeframe is confirmed. No promise to expedite. Human action: obtain a real turnaround from the KYC owner so a truthful expectation can be given, then follow up on this ticket; the draft should be updated with that figure only once it is confirmed. Sources: support-handbook-v2.md#verification-kyc, support-handbook-v2.md#escalation, customers.csv#C-1013.",
+  "sources": [
+    "support-handbook-v2.md#verification-kyc",
+    "support-handbook-v2.md#escalation",
+    "customers.csv#C-1013",
+    "tickets.json#T-5113"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "de13cfaa6e7887233f7099444366442a98e53896b24dd4925d51ddf1ca4ce224",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:39.952Z",
+      "content_sha256": "de13cfaa6e7887233f7099444366442a98e53896b24dd4925d51ddf1ca4ce224",
+      "previous_sha256": null
+    }
+  ]
+}

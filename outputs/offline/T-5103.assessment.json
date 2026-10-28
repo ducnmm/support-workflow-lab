@@ -1,0 +1,52 @@
+{
+  "ticket_id": "T-5103",
+  "category": "kyc",
+  "priority": "P1",
+  "route": "Team Lead",
+  "reasons": [
+    "Verification status is under_review; do not disclose review reasons or promise completion.",
+    "Verification timing is unknown and needs confirmation from the responsible team.",
+    "Legal or chargeback threat requires team lead handling; do not resolve automatically.",
+    "Only communicate that review is in progress. Never disclose findings."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "legal_or_chargeback_threat",
+    "kyc_under_review"
+  ],
+  "missing_information": [
+    "No verification turnaround time or detailed process is provided."
+  ],
+  "sources": [
+    "tickets.json#T-5103",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#verification-kyc",
+    "customers.csv#C-1011",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 28.25,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Reproducible deterministic MCP run. No LLM was used for this output.",
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "7d5cc0207d4944f5d098f0fed4f712a798e1a1c9c85bde138c7a352771cb616e",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.020Z",
+      "content_sha256": "0cd4e16bc1cc0b7638a534c5594e65a9ae341deff0f9369896e63a22aade8eeb",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:20:20.377Z",
+      "content_sha256": "7d5cc0207d4944f5d098f0fed4f712a798e1a1c9c85bde138c7a352771cb616e",
+      "previous_sha256": "0cd4e16bc1cc0b7638a534c5594e65a9ae341deff0f9369896e63a22aade8eeb"
+    }
+  ]
+}

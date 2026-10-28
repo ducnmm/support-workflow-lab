@@ -1,0 +1,42 @@
+{
+  "ticket_id": "T-5113",
+  "category": "kyc",
+  "priority": "P2",
+  "route": "Team Lead",
+  "reasons": [
+    "Verification status is pending; do not disclose review reasons or promise completion.",
+    "Verification timing is unknown and needs confirmation from the responsible team."
+  ],
+  "flags": [
+    "first_reply_overdue"
+  ],
+  "missing_information": [
+    "No verification turnaround time or detailed process is provided."
+  ],
+  "sources": [
+    "tickets.json#T-5113",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#verification-kyc",
+    "customers.csv#C-1013",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 13.83,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Reproducible deterministic MCP run. No LLM was used for this output.",
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "0874215d6c79e4f96f2fee2a9bbb9828bbd00848b8c29d97b5001b0583d0cca0",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.028Z",
+      "content_sha256": "0874215d6c79e4f96f2fee2a9bbb9828bbd00848b8c29d97b5001b0583d0cca0",
+      "previous_sha256": null
+    }
+  ]
+}

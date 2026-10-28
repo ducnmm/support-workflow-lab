@@ -1,0 +1,28 @@
+{
+  "ticket_id": "T-5102",
+  "customer_text": "Hi Somchai,\n\nThank you for your message, and I'm sorry this has been sitting with us.\n\nYour withdrawal of $400 requested on 21 September is still showing as pending, which means it has not yet been processed or sent to the provider. I can't confirm a payment date for it from here, and I can't release it myself.\n\nA withdrawal that has been pending this long has to be reviewed by our Payments team, who handle payments that are overdue. I'm sorry I can't give you a date for when that review will be finished.\n\nThis is also the same withdrawal you wrote to us about separately, so it's being treated as one case rather than two.",
+  "internal_notes": "Route Payments (baseline accepted), P2, escalation saved. TX-86702: 400.00 USD, pending, QuickPay, created 2026-09-21T13:40Z — pending ~8.8 days, far past the 24h trigger. DUPLICATE PAIR: T-5102 <-> T-5110, same customer C-1007, same transaction. Answer once; keep both open and cross-linked; the last line of the draft refers to this so the customer isn't asked twice. Finance context: QuickPay settlement incident 20-24 Sep, 14 withdrawals still pending, Payments owns follow-up (finance-month-end-sept.md#payment-providers). The internal 2 Oct expectation is deliberately ABSENT from customer_text and must stay out. Draft does not claim the withdrawal was processed or sent, does not claim Payments prioritised this customer, and promises no date. Note the customer's contact details were posted in the support Slack channel on 2026-09-22T06:45Z — internal privacy issue for a lead to address; do not repeat them. Sources: support-handbook-v2.md#withdrawals, finance-month-end-sept.md#payment-providers, transactions.csv#TX-86702.",
+  "sources": [
+    "transactions.csv#TX-86702",
+    "support-handbook-v2.md#withdrawals",
+    "finance-month-end-sept.md#payment-providers",
+    "tickets.json#T-5102",
+    "tickets.json#T-5110"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "e8bc64f7c4cdcecd2f05bd1f5e8b3f2318298364d901a7fd93d0b274ab2166f4",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:11.057Z",
+      "content_sha256": "e8bc64f7c4cdcecd2f05bd1f5e8b3f2318298364d901a7fd93d0b274ab2166f4",
+      "previous_sha256": null
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-5115",
+  "target": "Team Lead",
+  "priority": "P4",
+  "reasons": [
+    "Reload offer is an unpublished marketing draft, with final terms still pending Legal.",
+    "This question is about an upcoming reload offer, not the welcome bonus. Do not apply welcome-bonus wagering or expiry rules to it."
+  ],
+  "sources": [
+    "tickets.json#T-5115",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#bonuses",
+    "marketing-q4-campaigns.md#october",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "Human action needed: Reload offer is an unpublished marketing draft, with final terms still pending Legal. This question is about an upcoming reload offer, not the welcome bonus. Do not apply welcome-bonus wagering or expiry rules to it.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "8b01df778682ef26adcec810b4aba3ada64f2f44d0ec650dabe3f1fb1f7ff449",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.030Z",
+      "content_sha256": "1f1aeb5f0fbf4931ce5fd1915f99bd576d435b16e1e95f68d1d70f1a4a5f08c8",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:20:20.390Z",
+      "content_sha256": "8b01df778682ef26adcec810b4aba3ada64f2f44d0ec650dabe3f1fb1f7ff449",
+      "previous_sha256": "1f1aeb5f0fbf4931ce5fd1915f99bd576d435b16e1e95f68d1d70f1a4a5f08c8"
+    }
+  ]
+}

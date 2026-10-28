@@ -1,0 +1,41 @@
+{
+  "title": "Why can't I withdraw my welcome bonus? (agent guidance)",
+  "body": "Status: DRAFT — pending human review; not published.\nOwner: Support Team Lead\nReview date: 2026-10-29\n\n## Short answer\nA welcome bonus and any winnings from it cannot be withdrawn until the wagering requirement is met. The published terms are:\n\n- Welcome bonus: 100% of the first deposit, up to USD 100.\n- Wagering requirement: 30 times the bonus amount, within 14 days of the bonus being credited.\n- Game weighting: slots count 100%; table games count 10%; live casino counts 0%.\n- Maximum bet while a bonus is active: USD 5 per spin or round.\n- If the customer withdraws before meeting the requirement, the bonus and any winnings from it are forfeited.\n- If the 14 days pass before the requirement is met, the bonus and any winnings from it are removed.\n- There are no exceptions. Support cannot change the terms or credit a bonus manually.\n\n## Worked hypothetical: all blackjack\nThis is arithmetic only, not a statement about any customer's account.\n\nA customer deposits USD 100 and receives a USD 100 welcome bonus (100% up to USD 100). The wagering requirement is 30 × USD 100 = USD 3,000.\n\nBlackjack is a table game and counts at 10%. If the customer played only blackjack, they would need USD 30,000 in blackjack wagers within 14 days for those wagers to count as USD 3,000. By contrast, USD 3,000 of blackjack wagers would count as only USD 300 toward the requirement.\n\nDo not use this hypothetical to tell a customer they are eligible or ineligible; it only shows how the published weighting works.\n\n## What agents may say\n- Quote the current terms and explain the wagering requirement, game weighting, 14-day window, and USD 5 maximum bet.\n- Explain that the bonus and winnings from it are locked until the requirement is met, and what the terms say happens on early withdrawal or expiry.\n- If the 14-day deadline has passed, distinguish the published terms from unverified account execution: the terms provide for removal, but do not assert that funds were actually removed or invent exact wagering progress.\n- Escalate account-specific verification to a human; do not guess.\n\n## What agents must not say\n- Do not invent a wagering figure, eligibility outcome, or claim that bonus funds or winnings were removed.\n- Do not promise a withdrawal date or outcome.\n- Do not offer or disclose the October reload bonus; it is unpublished and awaiting Legal.\n- Do not use the old handbook or incorrect closed replies as precedent.\n- Do not make exceptions or manually credit a bonus.\n\n## Export-only gaps (do not treat as policy)\nThese gaps belong to this 30-ticket export, not to company policy:\n- There is no wagering ledger or account-level bonus history here, so exact progress, eligibility, and whether bonus/winnings were removed cannot be verified.\n- There is no self-service or back-office procedure in the export for checking wagering progress; do not invent one.\n- The export is a 30-ticket sample, not the full queue mentioned in Slack.\n- The October reload proposal exists only in an unpublished marketing plan; it is not customer policy.\n- Account-specific statements require human verification.\n\n## Sources\n- bonus-terms.md#welcome-bonus (current policy)\n- bonus-terms.md#withdrawing-with-an-active-bonus (current policy)\n- bonus-terms.md#exceptions (current policy)\n- support-handbook-v2.md#bonuses (current policy)\n- support-handbook-v2.md#withdrawals (current policy)\n- support-handbook-v2.md#response-times (current policy)",
+  "sources": [
+    "bonus-terms.md#welcome-bonus",
+    "bonus-terms.md#withdrawing-with-an-active-bonus",
+    "bonus-terms.md#exceptions",
+    "support-handbook-v2.md#bonuses",
+    "support-handbook-v2.md#withdrawals",
+    "support-handbook-v2.md#response-times"
+  ],
+  "owner": "Support Team Lead",
+  "suggested_review_date": "2026-10-29",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "9fbee76c39d70d39c5ee4548e4b48676b7209c84befa3ebf4b132cf5ea866139",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:18:23.188Z",
+      "content_sha256": "00d3506f010b701cf481f1bc74405de22df81fbf305c57093a4f4dbd2557ae90",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:22:10.473Z",
+      "content_sha256": "8bcca6a74ab8315c3c2425e66c2f7a2cd245e3e9223fbfd75ad1227458b1464f",
+      "previous_sha256": "00d3506f010b701cf481f1bc74405de22df81fbf305c57093a4f4dbd2557ae90"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T14:25:24.940Z",
+      "content_sha256": "9fbee76c39d70d39c5ee4548e4b48676b7209c84befa3ebf4b132cf5ea866139",
+      "previous_sha256": "8bcca6a74ab8315c3c2425e66c2f7a2cd245e3e9223fbfd75ad1227458b1464f"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ticket_id": "T-5109",
+  "customer_text": "Hi Grace,\n\nThank you for following up, and sorry for the wait - you've been patient longer than you should have had to be.\n\nI can see the withdrawal of $120 from 22 September. On our side it shows as completed, which means the payment provider confirmed it to us. That isn't the same as you having received it, and I take your word that it hasn't reached your e-wallet.\n\nI can't reissue the payment from here, and I'm not going to tell you it's resolved when it isn't. What's needed is a check of the payment with the provider, matched against the e-wallet it was sent to.\n\nTo help with that, could you confirm which e-wallet provider you use and whether you've checked the transaction history in that wallet?\n\nI'm sorry I can't give you a date for when that check will be finished.",
+  "internal_notes": "Route Payments (baseline accepted), P2, escalation saved. TX-86735: 120.00 USD, QuickPay, created 2026-09-22T02:10Z, updated 2026-09-26T11:30Z, status completed. `completed` = provider confirmed to us, NOT proof of receipt → completed-but-receipt-disputed. Required action is verification/tracing, not a reissue and not a second payment; the draft explicitly refuses to reissue and refuses to declare resolution. It asks for the e-wallet provider and a check of the wallet's transaction history so a human can trace it. Deliberately omitted: the internal 2 Oct QuickPay expectation, any claim that the money is on its way, and any repeat of the unsupported \"up to 5 days\" from closed ticket T-5015. Human action: Payments to trace TX-86735 with QuickPay against the destination wallet before anything else happens. Sources: support-handbook-v2.md#withdrawals, finance-month-end-sept.md#payment-providers, transactions.csv#TX-86735.",
+  "sources": [
+    "support-handbook-v2.md#withdrawals",
+    "finance-month-end-sept.md#payment-providers",
+    "transactions.csv#TX-86735",
+    "tickets.json#T-5109",
+    "tickets.json#T-5015"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "103ddc486086ba61ec603145bb170c64a3b5263f813ec223be79bf4819769d23",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:29.560Z",
+      "content_sha256": "103ddc486086ba61ec603145bb170c64a3b5263f813ec223be79bf4819769d23",
+      "previous_sha256": null
+    }
+  ]
+}

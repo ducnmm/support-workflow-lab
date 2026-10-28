@@ -1,0 +1,470 @@
+{
+  "model": "deepseek-flash[1m]",
+  "client": "Claude Code 2.1.312",
+  "provider": "DeepSeek",
+  "authoring_mode": "live-model-client-test",
+  "final": {
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 68,
+    "duration_ms": 168058
+  },
+  "events": [
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__list_tickets",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5101",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5102",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5103",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5104",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5105",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5106",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5107",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5108",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5109",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5110",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5111",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5112",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5113",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5114",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__get_ticket_context",
+      "ticket_id": "T-5115",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__search_knowledge",
+      "status": "ok"
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5101",
+      "status": "ok",
+      "saved_record": "T-5101.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5102",
+      "status": "ok",
+      "saved_record": "T-5102.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5103",
+      "status": "ok",
+      "saved_record": "T-5103.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5104",
+      "status": "ok",
+      "saved_record": "T-5104.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5105",
+      "status": "ok",
+      "saved_record": "T-5105.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5106",
+      "status": "ok",
+      "saved_record": "T-5106.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5107",
+      "status": "ok",
+      "saved_record": "T-5107.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5108",
+      "status": "ok",
+      "saved_record": "T-5108.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5109",
+      "status": "ok",
+      "saved_record": "T-5109.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5110",
+      "status": "ok",
+      "saved_record": "T-5110.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5111",
+      "status": "ok",
+      "saved_record": "T-5111.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5112",
+      "status": "ok",
+      "saved_record": "T-5112.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5113",
+      "status": "ok",
+      "saved_record": "T-5113.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5114",
+      "status": "ok",
+      "saved_record": "T-5114.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_ticket_assessment",
+      "ticket_id": "T-5115",
+      "status": "ok",
+      "saved_record": "T-5115.assessment.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5101",
+      "status": "ok",
+      "saved_record": "T-5101.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5102",
+      "status": "ok",
+      "saved_record": "T-5102.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5103",
+      "status": "ok",
+      "saved_record": "T-5103.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5104",
+      "status": "ok",
+      "saved_record": "T-5104.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5105",
+      "status": "ok",
+      "saved_record": "T-5105.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5106",
+      "status": "ok",
+      "saved_record": "T-5106.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5107",
+      "status": "ok",
+      "saved_record": "T-5107.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5108",
+      "status": "ok",
+      "saved_record": "T-5108.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5109",
+      "status": "ok",
+      "saved_record": "T-5109.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5110",
+      "status": "ok",
+      "saved_record": "T-5110.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5111",
+      "status": "ok",
+      "saved_record": "T-5111.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5112",
+      "status": "ok",
+      "saved_record": "T-5112.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5113",
+      "status": "ok",
+      "saved_record": "T-5113.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5114",
+      "status": "ok",
+      "saved_record": "T-5114.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_response_draft",
+      "ticket_id": "T-5115",
+      "status": "ok",
+      "saved_record": "T-5115.draft.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5102",
+      "status": "ok",
+      "saved_record": "T-5102.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5103",
+      "status": "ok",
+      "saved_record": "T-5103.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5105",
+      "status": "ok",
+      "saved_record": "T-5105.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5106",
+      "status": "ok",
+      "saved_record": "T-5106.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5109",
+      "status": "ok",
+      "saved_record": "T-5109.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5110",
+      "status": "ok",
+      "saved_record": "T-5110.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5111",
+      "status": "ok",
+      "saved_record": "T-5111.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5112",
+      "status": "ok",
+      "saved_record": "T-5112.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5113",
+      "status": "ok",
+      "saved_record": "T-5113.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5114",
+      "status": "ok",
+      "saved_record": "T-5114.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_escalation",
+      "ticket_id": "T-5115",
+      "status": "ok",
+      "saved_record": "T-5115.escalation.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "error",
+      "error": "KB drafts must cite current policy sources. Historical tickets alone do not establish correct policy."
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "error",
+      "error": "KB drafts must cite current policy sources. Historical tickets alone do not establish correct policy."
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "ok",
+      "saved_record": "05f5948abaaaf360.kb.json",
+      "revision": 1,
+      "changed": true
+    },
+    {
+      "tool": "mcp__plugin_support-99tech_support-local__save_kb_draft",
+      "status": "ok",
+      "saved_record": "dc82ad047a441d86.kb.json",
+      "revision": 1,
+      "changed": true
+    }
+  ],
+  "unanswered_tool_calls": []
+}

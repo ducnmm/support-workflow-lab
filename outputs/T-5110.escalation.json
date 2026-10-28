@@ -1,0 +1,35 @@
+{
+  "ticket_id": "T-5110",
+  "target": "Payments",
+  "priority": "P2",
+  "reasons": [
+    "Recorded transaction TX-86702: 400.00 USD, pending, QuickPay.",
+    "Pending for more than 24 hours; Payments follow-up required.",
+    "Finance reports a QuickPay incident on 20–24 September. This is context, not proof of a particular settlement date.",
+    "Related same-customer tickets exist; review before duplicating work."
+  ],
+  "sources": [
+    "tickets.json#T-5110",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#withdrawals",
+    "transactions.csv#TX-86702",
+    "finance-month-end-sept.md#payment-providers"
+  ],
+  "requested_action": "TARGET: Payments. REQUIRED ACTION: same transaction as T-5102 — TX-86702, 400.00 USD QuickPay, customer C-1007, created 2026-09-21T13:40Z, still `pending`, not sent to the provider. Handle as ONE Payments item, not two: this chat ticket is the customer's angry follow-up (\"nobody answered my email ... this is a joke\") after 6+ days with no first response. Both T-5102 and T-5110 stay open and cross-linked; the Payments queue must not contain a duplicate action for the same withdrawal. Do not quote the internal 2 Oct incident expectation, do not claim the customer has been prioritised, and do not describe the withdrawal as processed. WHO: Payments team. Secondary internal issue for a team lead: this customer's name and contact details were posted in the internal support channel on 2026-09-22 — privacy rule breach, needs addressing separately from this ticket. DRAFT: reply drafted and pending human review; it states pending status, apologises for the chase and promises no date. STATUS: local brief only, NOT delivered to Payments.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "47bbbf5c84a0a3a0647983d07558d947349173ba697ddf7661552fc12af36b63",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:57.504Z",
+      "content_sha256": "47bbbf5c84a0a3a0647983d07558d947349173ba697ddf7661552fc12af36b63",
+      "previous_sha256": null
+    }
+  ]
+}

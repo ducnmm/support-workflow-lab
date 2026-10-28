@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-5111",
+  "target": "Team Lead",
+  "priority": "P2",
+  "reasons": [
+    "Welcome bonus: 30× bonus amount within 14 days; table games count 10%, live casino 0%. No manual exceptions.",
+    "Recorded bonus 100.00 USD; 14-day deadline 2026-09-19T19:44:30.000Z.",
+    "Previous support advice conflicts with Bonus Terms; a human should handle the complaint without inventing a policy exception.",
+    "Related same-customer tickets exist; review before duplicating work."
+  ],
+  "sources": [
+    "tickets.json#T-5111",
+    "support-handbook-v2.md#response-times",
+    "bonus-terms.md#welcome-bonus",
+    "bonus-terms.md#withdrawing-with-an-active-bonus",
+    "bonus-terms.md#exceptions",
+    "transactions.csv#TX-86189",
+    "support-handbook-v2.md#escalation",
+    "tickets.json#T-5011"
+  ],
+  "requested_action": "Human action needed: Welcome bonus: 30× bonus amount within 14 days; table games count 10%, live casino 0%. No manual exceptions. Recorded bonus 100.00 USD; 14-day deadline 2026-09-19T19:44:30.000Z. Previous support advice conflicts with Bonus Terms; a human should handle the complaint without inventing a policy exception. Related same-customer tickets exist; review before duplicating work.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "c57257ba237053709a3304f3b5d05e478a73d29ade956982fec059a127912eda",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.027Z",
+      "content_sha256": "c57257ba237053709a3304f3b5d05e478a73d29ade956982fec059a127912eda",
+      "previous_sha256": null
+    }
+  ]
+}

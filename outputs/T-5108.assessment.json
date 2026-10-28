@@ -1,0 +1,38 @@
+{
+  "ticket_id": "T-5108",
+  "category": "privacy",
+  "priority": "P3",
+  "route": "Support",
+  "reasons": [
+    "Do not look up or disclose the other person’s account. A claimed family relationship is not authorization."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "third_party_account_request"
+  ],
+  "missing_information": [],
+  "sources": [
+    "tickets.json#T-5108",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#privacy"
+  ],
+  "related_tickets": [],
+  "age_hours": 18,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Baseline accepted: privacy / P3 / Support. The requester (C-1005, Priya Nair) is asking about a different person's account (her husband \"Rahul\"). Policy is absolute: never discuss another customer's account, even with family members or people who say they share the account, and a claimed shared-savings/shared-everything relationship is not authorisation. Important handling detail: do not look up, confirm or deny the existence of the named account, do not confirm any withdrawal amount, and do not use the redacted email in the ticket as a lookup key. The only transactions on record are C-1005's own (TX-86340, 100.00 USD deposit) and are irrelevant to the request. Reply must decline clearly but warmly, explain it is a privacy rule that applies to everyone, and offer to help with her own account. No escalation needed; this is a documented informational/privacy case. Sources: tickets.json#T-5108, support-handbook-v2.md#privacy, support-handbook-v2.md#response-times.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "6c8e7ba8f4f33331de2aa227830c2feeb8eb90ca8d37d9bcfe4231b5aace23dc",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:28.401Z",
+      "content_sha256": "6c8e7ba8f4f33331de2aa227830c2feeb8eb90ca8d37d9bcfe4231b5aace23dc",
+      "previous_sha256": null
+    }
+  ]
+}

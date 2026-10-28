@@ -1,0 +1,29 @@
+{
+  "ticket_id": "T-5111",
+  "customer_text": "Hi Oliver,\n\nThank you for your message, and I'm sorry for the confusion - some of that confusion came from us.\n\nHere is how the welcome bonus works: the wagering requirement is 30 times the bonus amount, within 14 days of the bonus being credited. Only slot games count in full. Table games count at 10%, and live casino doesn't count at all. There's also a $5 maximum bet while a bonus is active. I'm sorry that earlier advice suggested any game would count - that was wrong.\n\nThe 14-day window for your bonus has passed, and under the terms the bonus and any winnings from it are removed if the requirement isn't met in that time.\n\nI don't have a breakdown of your wagering, so I can't confirm exactly how your play was counted or what has happened on your account. Because you were given incorrect information by us, this needs to be looked at by a team lead rather than decided by me. I can't promise an outcome today.",
+  "internal_notes": "Route Team Lead (correct), P2, escalation saved. Two issues: (1) closed ticket T-5011 told him \"you can use your bonus on any game\", which contradicts the Bonus Terms — table games count 10%, live casino 0%. The draft corrects the advice plainly and apologises, without blaming the customer. (2) TX-86189 bonus 100.00 USD credited 2026-09-05T19:44:30Z; 14-day deadline 2026-09-19T19:44:30Z has passed; 30x = 3,000.00 USD. His \"$2,000 mostly blackjack\" would count at 10% under the terms, but NO WAGERING LEDGER EXISTS — the draft deliberately does not present a computed eligibility figure as a finding about his account and does not claim the bonus \"was removed\"; it states the term and says the account view is unavailable. No exception or manual credit (bonus-terms.md#exceptions). Escalation is for the prior-advice complaint, not for a policy exception: a team lead must decide how to handle it; if any goodwill is considered it needs recorded approval and cannot be framed as a bonus-terms exception. Sources: bonus-terms.md#welcome-bonus, bonus-terms.md#withdrawing-with-an-active-bonus, bonus-terms.md#exceptions, transactions.csv#TX-86189, tickets.json#T-5011.",
+  "sources": [
+    "bonus-terms.md#welcome-bonus",
+    "bonus-terms.md#withdrawing-with-an-active-bonus",
+    "bonus-terms.md#exceptions",
+    "transactions.csv#TX-86189",
+    "tickets.json#T-5011",
+    "support-handbook-v2.md#escalation"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "a5a53943136e6e88767bb5479664bac9b2d702cb5bcc1a2596b35ef0891a7e18",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:35.768Z",
+      "content_sha256": "a5a53943136e6e88767bb5479664bac9b2d702cb5bcc1a2596b35ef0891a7e18",
+      "previous_sha256": null
+    }
+  ]
+}

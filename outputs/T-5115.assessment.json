@@ -1,0 +1,49 @@
+{
+  "ticket_id": "T-5115",
+  "category": "bonus",
+  "priority": "P4",
+  "route": "Team Lead",
+  "reasons": [
+    "Reload offer is an unpublished marketing draft, with final terms still pending Legal.",
+    "This question is about an upcoming reload offer, not the welcome bonus. Do not apply welcome-bonus wagering or expiry rules to it."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "unpublished_terms"
+  ],
+  "missing_information": [
+    "Final approved and published reload terms and permitted customer-facing wording."
+  ],
+  "sources": [
+    "tickets.json#T-5115",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#bonuses",
+    "marketing-q4-campaigns.md#october",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 8,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Current rules classify this as P4: an inquiry about an unpublished reload bonus. The October reload proposal is an unpublished marketing draft awaiting Legal. Do not disclose provisional terms (percentage, cap, frequency or start date) and do not offer it now. Welcome-bonus wagering and expiry rules do not apply to this reload question. Human action: Marketing/Legal must confirm approved, published terms and permitted customer-facing wording before any offer is made; Support cannot commit or enroll the customer. Sources: marketing-q4-campaigns.md#october (unpublished), support-handbook-v2.md#bonuses, support-handbook-v2.md#response-times, tickets.json#T-5115.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "70d03ff4fccc062aa80ca0a1e02c0157307a1f2f65da07693882373b4352a6f3",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:43.577Z",
+      "content_sha256": "8a3d74b8c6fddd5e42f05f45d9214af9c2da74dfb36f7cb64859508f0ba345ee",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:14.107Z",
+      "content_sha256": "70d03ff4fccc062aa80ca0a1e02c0157307a1f2f65da07693882373b4352a6f3",
+      "previous_sha256": "8a3d74b8c6fddd5e42f05f45d9214af9c2da74dfb36f7cb64859508f0ba345ee"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticket_id": "T-5109",
+  "category": "withdrawal",
+  "priority": "P2",
+  "route": "Payments",
+  "reasons": [
+    "Recorded transaction TX-86735: 120.00 USD, completed, QuickPay.",
+    "Provider confirmation and the customer’s report disagree. Verify receipt; do not promise or reissue payment.",
+    "Finance reports a QuickPay incident on 20–24 September. This is context, not proof of a particular settlement date.",
+    "Related same-customer tickets exist; review before duplicating work."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "completed_but_receipt_disputed"
+  ],
+  "missing_information": [],
+  "sources": [
+    "tickets.json#T-5109",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#withdrawals",
+    "transactions.csv#TX-86735",
+    "finance-month-end-sept.md#payment-providers"
+  ],
+  "related_tickets": [
+    "T-5015"
+  ],
+  "age_hours": 27,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Baseline accepted: withdrawal / P2 / Payments. TX-86735 is 120.00 USD via QuickPay, created 2026-09-22T02:10Z, updated 2026-09-26T11:30Z, status completed. `completed` means the provider confirmed it — it does NOT mean the customer has received it, and the customer says it has not reached her e-wallet. This is a completed-but-receipt-disputed case: the required action is verification of the payment/receipt (provider reference, destination e-wallet, trace), NOT a reissue and NOT a second payment. Must not tell her the concern is resolved, must not say the money is definitely on its way, and must not claim a new payment. The closed prior ticket T-5015 told her \"up to 5 days\" — an unsupported promise; per the current handbook, processing is 24h then 1-3 business days, and that earlier advice should not be repeated. Finance context shows a QuickPay settlement incident 20-24 Sep touching delayed withdrawals; this is context only. The 2 Oct internal target must not be given to the customer. This ticket is related to, but not a duplicate of, T-5015 (closed). Escalation required. Sources: tickets.json#T-5109, transactions.csv#TX-86735, support-handbook-v2.md#withdrawals, finance-month-end-sept.md#payment-providers, tickets.json#T-5015.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "c4cb5ab5c09230febac5bcca8f038a3383aca69b0e65f88b3954c8bc72ea02b8",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:30.373Z",
+      "content_sha256": "c4cb5ab5c09230febac5bcca8f038a3383aca69b0e65f88b3954c8bc72ea02b8",
+      "previous_sha256": null
+    }
+  ]
+}

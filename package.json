@@ -1,0 +1,27 @@
+{
+  "name": "support-99tech",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local support workflow plugin adapted from Anthropic's customer-support plugin",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "demo": "npm run build && node dist/scripts/demo.js",
+    "start": "node dist/src/server.js",
+    "check:outputs": "node dist/scripts/check-outputs.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "csv-parse": "7.0.3",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}

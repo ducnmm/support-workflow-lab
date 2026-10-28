@@ -1,0 +1,43 @@
+{
+  "ticket_id": "T-5114",
+  "target": "Team Lead",
+  "priority": "P4",
+  "reasons": [
+    "Available sources do not confirm the requested deposit methods."
+  ],
+  "sources": [
+    "tickets.json#T-5114",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#deposits",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "Target: Team Lead (per assessment route). P4 informational request: can the customer deposit by bank transfer instead of card? Required human action: someone with access to the approved payment-method documentation must confirm whether bank transfer is supported and supply approved customer wording. The approved deposit-method list is missing from THIS EXPORT; that is not proof that Support lacks it in real systems. Do not guess or imply a method is unavailable. First reply is overdue (11.5h against the 1h target). This saved brief has not been delivered; a human must route it. Sources: tickets.json#T-5114, support-handbook-v2.md#deposits, support-handbook-v2.md#response-times, support-handbook-v2.md#escalation.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "codex-review",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "69e6220b9dc994e004ee8dabbba70ed9e6f2c69cdaa5038d2ea917c1b5444261",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:18:03.926Z",
+      "content_sha256": "d3489a4b1ae7a11bf431b786b050a530dccc0c867c375983c155239235e48b70",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:48.428Z",
+      "content_sha256": "90985d7c8d78b7352874d58a9803a54b8aea55576b9b555adfcc9ae361e6c747",
+      "previous_sha256": "d3489a4b1ae7a11bf431b786b050a530dccc0c867c375983c155239235e48b70"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T15:14:46.098Z",
+      "content_sha256": "69e6220b9dc994e004ee8dabbba70ed9e6f2c69cdaa5038d2ea917c1b5444261",
+      "previous_sha256": "90985d7c8d78b7352874d58a9803a54b8aea55576b9b555adfcc9ae361e6c747"
+    }
+  ]
+}

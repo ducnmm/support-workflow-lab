@@ -1,0 +1,52 @@
+{
+  "ticket_id": "T-5114",
+  "category": "deposit",
+  "priority": "P4",
+  "route": "Team Lead",
+  "reasons": [
+    "Available sources do not confirm the requested deposit methods."
+  ],
+  "flags": [
+    "first_reply_overdue"
+  ],
+  "missing_information": [
+    "Approved payment-method documentation."
+  ],
+  "sources": [
+    "tickets.json#T-5114",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#deposits",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 11.5,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Reproducible deterministic MCP run. No LLM was used for this output.",
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "0470afe8073a455a50301217ecf650c2c34c6d2be2693c3d101fc11389a95ba0",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.029Z",
+      "content_sha256": "6be90c1e9b3e4f1de85078c63c25def9670b02ae4383cc338376861527d4f254",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:20:20.388Z",
+      "content_sha256": "246b9b84ee6a932fc6977fbe3ecaa369d00d676676f60412b337fdb55ffd9373",
+      "previous_sha256": "6be90c1e9b3e4f1de85078c63c25def9670b02ae4383cc338376861527d4f254"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T15:14:46.261Z",
+      "content_sha256": "0470afe8073a455a50301217ecf650c2c34c6d2be2693c3d101fc11389a95ba0",
+      "previous_sha256": "246b9b84ee6a932fc6977fbe3ecaa369d00d676676f60412b337fdb55ffd9373"
+    }
+  ]
+}

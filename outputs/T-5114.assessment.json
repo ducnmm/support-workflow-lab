@@ -1,0 +1,52 @@
+{
+  "ticket_id": "T-5114",
+  "category": "deposit",
+  "priority": "P4",
+  "route": "Team Lead",
+  "reasons": [
+    "Available sources do not confirm the requested deposit methods."
+  ],
+  "flags": [
+    "first_reply_overdue"
+  ],
+  "missing_information": [
+    "Approved payment-method documentation."
+  ],
+  "sources": [
+    "tickets.json#T-5114",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#deposits",
+    "support-handbook-v2.md#escalation"
+  ],
+  "related_tickets": [],
+  "age_hours": 11.5,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Current rules classify this as a P4 informational deposit-method question. The customer asks whether bank transfer is available. This export contains no approved payment-method documentation, so support cannot confirm the answer from available sources; that is a gap in this export, not evidence that Support lacks such documentation in real systems. Human action: a person with access to the approved payment-method list must confirm whether bank transfer is supported and provide approved customer wording. Do not guess or imply a method is unavailable. First reply target is one hour and this ticket is already overdue. Sources: support-handbook-v2.md#deposits, support-handbook-v2.md#response-times, tickets.json#T-5114.\nPost-review code correction: payment-method inquiries are evaluated before historical failed deposits. The missing information here is the approved payment-method documentation; no failed transaction is inferred from this question.",
+  "status": "pending_human_review",
+  "authoring_mode": "codex-review",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 3,
+  "content_sha256": "06b9752249bdd0ca004ae0c0aeecf11a76eb9cd7768f6a464a538820d15ce0b7",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:41.342Z",
+      "content_sha256": "209f4c98543aceac8b1e5f0b75f36dbc70cb68a3c077387cf22030133759fc31",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:13.355Z",
+      "content_sha256": "dbc3cd13274978108f50bcd53e60f5db5abc51cc44ffcc4eb39e6e7d4073976e",
+      "previous_sha256": "209f4c98543aceac8b1e5f0b75f36dbc70cb68a3c077387cf22030133759fc31"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T15:14:46.095Z",
+      "content_sha256": "06b9752249bdd0ca004ae0c0aeecf11a76eb9cd7768f6a464a538820d15ce0b7",
+      "previous_sha256": "dbc3cd13274978108f50bcd53e60f5db5abc51cc44ffcc4eb39e6e7d4073976e"
+    }
+  ]
+}

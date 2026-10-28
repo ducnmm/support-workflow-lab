@@ -1,0 +1,32 @@
+{
+  "ticket_id": "T-5106",
+  "target": "Team Lead",
+  "priority": "P2",
+  "reasons": [
+    "A proposed refund above USD 100 needs prior team lead approval. VIP tier does not change the limit.",
+    "A refund request does not prove eligibility or a game fault. No money is moved by this plugin."
+  ],
+  "sources": [
+    "tickets.json#T-5106",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#refunds",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "TARGET: Team Lead. REQUIRED ACTION: decide on a refund request of 250.00 USD for a frozen live-game round — above the USD 100 agent limit, so recorded prior approval is mandatory and Gold/VIP tier does not waive it. Before any decision, obtain the game, round ID and approximate time from the customer and the game log/provider record for the round; none of that evidence exists in the export. A refund request does not establish eligibility and no fault has been verified. WHO: team lead approves or declines; Support cannot issue this refund and this workflow moved no money. If approved, the reason and this ticket ID must be recorded, per the handbook and the September refund audit finding. Customer C-1002, verified, not self-excluded, balance 1,340.00. Also note the September finance review flagged refunds issued above the limit without recorded approval — do not repeat that. DRAFT: reply drafted and pending human review; it promises no refund, no outcome and no date. STATUS: local brief only, NOT delivered to the Team Lead.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "a8c359dc0952c922cbba5b164bf09c8bb20a7db871b515f70f8357ff160e066c",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:53.182Z",
+      "content_sha256": "a8c359dc0952c922cbba5b164bf09c8bb20a7db871b515f70f8357ff160e066c",
+      "previous_sha256": null
+    }
+  ]
+}

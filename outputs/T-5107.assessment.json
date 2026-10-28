@@ -1,0 +1,39 @@
+{
+  "ticket_id": "T-5107",
+  "category": "deposit",
+  "priority": "P2",
+  "route": "Support",
+  "reasons": [
+    "Deposit TX-86933 failed. It must not be credited; provider reversals usually take 3–5 business days, not a guaranteed arrival date."
+  ],
+  "flags": [
+    "first_reply_overdue",
+    "failed_deposit_no_credit"
+  ],
+  "missing_information": [],
+  "sources": [
+    "tickets.json#T-5107",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#deposits",
+    "transactions.csv#TX-86933"
+  ],
+  "related_tickets": [],
+  "age_hours": 30.33,
+  "first_reply_overdue": true,
+  "as_of": "2026-09-29T09:00:00Z",
+  "review_required": true,
+  "model_notes": "Baseline accepted: deposit / P2 / Support. Customer writes in Vietnamese; reply must be in Vietnamese (language of the message, not of the country record). TX-86933 is a deposit of 500,000 VND via VietPay, created 2026-09-27T14:05Z, status failed (updated 14:06Z). Policy: a failed deposit is NEVER credited, so the balance correctly remains 0 — do not say it will be added, do not manually credit, and do not call it a system error to be fixed. The customer says the bank already debited them; per finance-month-end-sept.md#payment-providers, VietPay had 23 failed deposits on bank timeouts and all were auto-reversed by the provider, which is consistent with the statement that the provider reverses to source in usually 3-5 business days. Do not promise an exact date or claim the reversal has completed. Because 2026-09-27 was a Sunday, a 3-5 business day count from then is only just beginning; avoid any date arithmetic in the reply. No escalation: this is a documented case and the reversal is the provider's normal path. Sources: tickets.json#T-5107, transactions.csv#TX-86933, support-handbook-v2.md#deposits, finance-month-end-sept.md#payment-providers.",
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "8a9c7d8367dc9652cfbf779d3d0ce3c2ea83faa7a4cefaf5ba5efcd42a87e1cd",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:16:26.829Z",
+      "content_sha256": "8a9c7d8367dc9652cfbf779d3d0ce3c2ea83faa7a4cefaf5ba5efcd42a87e1cd",
+      "previous_sha256": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "support-local": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/src/server.js", "--data-dir", "${CLAUDE_PLUGIN_ROOT}/data", "--output-dir", "${CLAUDE_PLUGIN_ROOT}/outputs"]
+    }
+  }
+}

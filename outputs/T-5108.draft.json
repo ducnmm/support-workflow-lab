@@ -1,0 +1,26 @@
+{
+  "ticket_id": "T-5108",
+  "customer_text": "Hi Priya,\n\nThank you for reaching out, and I understand this is a worrying situation.\n\nI'm not able to help with this one, and I want to explain why clearly. We can only discuss an account with the account holder themselves. That applies to everyone, including spouses and family members, and it applies even when the couple shares finances - so I can't confirm or discuss any account other than your own.\n\nThis isn't a judgement on you. It's a privacy rule we apply without exception.\n\nI'm happy to help with anything to do with your own account. If your husband would like information about his, he can contact us directly and we'll help him.",
+  "internal_notes": "Route Support (baseline accepted), P3, no escalation. Third-party account request: customer asks for another person's withdrawal amounts on the basis of a shared-savings marriage. Policy is absolute — a claimed family or shared-account relationship is not authorisation. Handling checks performed: no lookup of the named account was made, no existence confirmed or denied, no amount confirmed, and the redacted email in the body was NOT used as a lookup key. The draft declines clearly but without coldness, explains the rule applies to everyone, and offers help with the requester's own account. No other customer's data appears in the draft or in these notes. Sources: support-handbook-v2.md#privacy, support-handbook-v2.md#response-times.",
+  "sources": [
+    "support-handbook-v2.md#privacy",
+    "support-handbook-v2.md#response-times",
+    "tickets.json#T-5108"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "fe3784d53b89972b093d2e264fc59d8d882e2c538ab804026d6141d7f80c96a6",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:27.119Z",
+      "content_sha256": "fe3784d53b89972b093d2e264fc59d8d882e2c538ab804026d6141d7f80c96a6",
+      "previous_sha256": null
+    }
+  ]
+}

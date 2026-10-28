@@ -1,0 +1,33 @@
+{
+  "ticket_id": "T-5101",
+  "customer_text": "Hi Marcus,\n\nThanks for reaching out, and I'm sorry your $250 hasn't arrived yet. Your withdrawal is currently in processing, which means it has been sent to the payment provider.\n\nDelivery usually takes 1–3 business days after processing, but I can't confirm an exact arrival date. We need to verify the exact processing start time and the provider's calendar before we can say whether it is outside the expected window. If it has been in processing for more than 3 business days, it will be referred to our Payments team.\n\nWe'll update you as soon as that check is complete.\n\nSupport Team",
+  "internal_notes": "Withdrawal TX-86901, USD 250, status processing, provider PayNova. Ticket created 2026-09-28T09:20Z; transaction created 2026-09-26T08:14Z and updated 2026-09-27T06:02Z. At the 2026-09-29T09:00Z export clock, the updated_at proxy gives only about 2 whole weekdays, so the 3-business-day processing threshold is NOT shown to be exceeded. A processing start before 27 September does NOT automatically mean 3 business days have elapsed: the exact processing-start timestamp and the provider's holiday calendar must be checked. Escalate to Payments only if processing has actually exceeded 3 business days. Do not promise an arrival date or claim the provider has completed delivery. First reply is overdue (23.67h against the 1h target). Sources: transactions.csv#TX-86901, tickets.json#T-5101, support-handbook-v2.md#withdrawals, support-handbook-v2.md#response-times.",
+  "sources": [
+    "transactions.csv#TX-86901",
+    "tickets.json#T-5101",
+    "support-handbook-v2.md#withdrawals",
+    "support-handbook-v2.md#response-times"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "claude-code",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 2,
+  "content_sha256": "684a13ef7f3da180df52d3a1f36e1670bed2fa94955c8d7a248fd7ee210a713a",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:08.611Z",
+      "content_sha256": "02650fee2e816c3904550cf2f5fbe4d5a1ef927a76f3393f75ed83ae30fdcf8b",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:43.932Z",
+      "content_sha256": "684a13ef7f3da180df52d3a1f36e1670bed2fa94955c8d7a248fd7ee210a713a",
+      "previous_sha256": "02650fee2e816c3904550cf2f5fbe4d5a1ef927a76f3393f75ed83ae30fdcf8b"
+    }
+  ]
+}

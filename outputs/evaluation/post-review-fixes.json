@@ -1,0 +1,24 @@
+{
+  "actor": "Codex assistant",
+  "authoring_mode": "codex-review",
+  "model_run": false,
+  "description": "Post-review assessment and local escalation refresh after correcting payment-method intent handling. Customer drafts were not regenerated. Not human approval.",
+  "writes": [
+    {
+      "tool": "save_ticket_assessment",
+      "ticket_id": "T-5114",
+      "path": "outputs/T-5114.assessment.json",
+      "changed": true,
+      "revision": 3,
+      "status": "pending_human_review"
+    },
+    {
+      "tool": "save_escalation",
+      "ticket_id": "T-5114",
+      "path": "outputs/T-5114.escalation.json",
+      "changed": true,
+      "revision": 3,
+      "status": "pending_human_review"
+    }
+  ]
+}

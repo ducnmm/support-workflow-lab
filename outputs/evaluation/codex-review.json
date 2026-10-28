@@ -1,0 +1,38 @@
+{
+  "reviewer": "Codex assistant",
+  "type": "editorial_and_policy_review",
+  "human_approval": false,
+  "note": "These are assistant review edits to DeepSeek-generated drafts, not human approval or delivery.",
+  "events": [
+    {
+      "ticket_id": "T-5103",
+      "reason": "Removed a claim that escalation was already in progress; only a local brief exists.",
+      "result": {
+        "path": "T-5103.draft.json",
+        "changed": true,
+        "revision": 3,
+        "status": "pending_human_review"
+      }
+    },
+    {
+      "ticket_id": "T-5105",
+      "reason": "Removed reviewer instructions from customer-facing wording while preserving urgent handling and uncertainty about account action.",
+      "result": {
+        "path": "T-5105.draft.json",
+        "changed": true,
+        "revision": 4,
+        "status": "pending_human_review"
+      }
+    },
+    {
+      "ticket_id": "T-5107",
+      "reason": "Kept the reply focused on the failed deposit and unconfirmed reversal without asserting the correctness of the overall account balance.",
+      "result": {
+        "path": "T-5107.draft.json",
+        "changed": true,
+        "revision": 3,
+        "status": "pending_human_review"
+      }
+    }
+  ]
+}

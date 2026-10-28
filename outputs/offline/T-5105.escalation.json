@@ -1,0 +1,30 @@
+{
+  "ticket_id": "T-5105",
+  "target": "Team Lead",
+  "priority": "P1",
+  "reasons": [
+    "Reported loss of control and request to stop: urgent human handling and the self-exclusion process are required."
+  ],
+  "sources": [
+    "tickets.json#T-5105",
+    "support-handbook-v2.md#response-times",
+    "support-handbook-v2.md#escalation"
+  ],
+  "requested_action": "Human action needed: Reported loss of control and request to stop: urgent human handling and the self-exclusion process are required.",
+  "delivery_status": "not_sent_local_record_only",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "deterministic-demo",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 1,
+  "content_sha256": "3c301acf8d765f7c6a254ce1af655d9b160120c429b4f4b6775b7730b7f523b9",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T13:16:34.023Z",
+      "content_sha256": "3c301acf8d765f7c6a254ce1af655d9b160120c429b4f4b6775b7730b7f523b9",
+      "previous_sha256": null
+    }
+  ]
+}

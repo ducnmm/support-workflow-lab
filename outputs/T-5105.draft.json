@@ -1,0 +1,44 @@
+{
+  "ticket_id": "T-5105",
+  "customer_text": "Hi Ethan,\n\nThank you for telling us what you are going through. I understand that you want to stop and are asking for permanent self-exclusion. Your request needs urgent action by an authorized member of our team.\n\nI cannot confirm that the exclusion is active yet. The team needs to review your request immediately and explain the next steps through the approved process.\n\nThank you for reaching out.",
+  "internal_notes": "Urgent Team Lead action required. Customer reports loss of control and requests permanent closure/self-exclusion; do not resolve at Support. The export contains no self-exclusion procedure or mechanism, so an authorized person must review immediately and tell the customer the next steps through the approved process. Do not state or imply exclusion is applied or in progress. No retention offer, bonus, or encouragement to play. First reply is overdue (~8.8h; created 2026-09-29T00:12Z). The self_excluded flag is false but is not proof that any action was taken. Sources: support-handbook-v2.md#escalation; support-handbook-v2.md#response-times; tickets.json#T-5105.",
+  "sources": [
+    "support-handbook-v2.md#escalation",
+    "support-handbook-v2.md#response-times",
+    "tickets.json#T-5105"
+  ],
+  "limitations": "Automated checks are limited. A person must verify and send; no communication has been sent.",
+  "review_required": true,
+  "status": "pending_human_review",
+  "authoring_mode": "codex-review",
+  "as_of": "2026-09-29T09:00:00Z",
+  "dataset_sha256": "a2e5c0aa763db7d98f70414f330250b7be31160c681b5734abe7c7f684bba936",
+  "revision": 4,
+  "content_sha256": "dd9b622e00e9c704cd836e0f356176820a01752e580bbb16203d08be8a5aa4bf",
+  "history": [
+    {
+      "revision": 1,
+      "saved_at": "2026-10-28T14:17:18.759Z",
+      "content_sha256": "ad2cb6ce290950d0f2dfcc4610cd9d7bc91104cecebee3e91e5dc3a0e487a2c1",
+      "previous_sha256": null
+    },
+    {
+      "revision": 2,
+      "saved_at": "2026-10-28T14:21:41.239Z",
+      "content_sha256": "42f5e6169817b8afc6f7dcc4d32812f79261f2ca23502367b722379d275fedd2",
+      "previous_sha256": "ad2cb6ce290950d0f2dfcc4610cd9d7bc91104cecebee3e91e5dc3a0e487a2c1"
+    },
+    {
+      "revision": 3,
+      "saved_at": "2026-10-28T14:25:14.132Z",
+      "content_sha256": "a55a8d05a73b84f1525553a5f6fc2811f03789299bbb543a64fa25b3a894fa6f",
+      "previous_sha256": "42f5e6169817b8afc6f7dcc4d32812f79261f2ca23502367b722379d275fedd2"
+    },
+    {
+      "revision": 4,
+      "saved_at": "2026-10-28T14:27:09.901Z",
+      "content_sha256": "dd9b622e00e9c704cd836e0f356176820a01752e580bbb16203d08be8a5aa4bf",
+      "previous_sha256": "a55a8d05a73b84f1525553a5f6fc2811f03789299bbb543a64fa25b3a894fa6f"
+    }
+  ]
+}
